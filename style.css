@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+  height: 20px;
+}
+
+#message.rouge {
+  color: red;
+}
+
+#message.vert {
+  color: green;
+}
+
+#message.orange {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+li.hover {
+  background-color: #f0f0f0;
+}
+
+li input[type="checkbox"] {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#supprimer {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
